@@ -1,0 +1,260 @@
+body {
+    background: #3c3939;
+    text-align: center;
+  }
+  
+  .box {
+    background: linear-gradient(to right, #787575 80%, #e1eec3);  
+    
+    color: white;
+    padding: 4rem 1rem;
+    margin: 2rem;
+    font-size: 100px;
+  }
+  body{
+    background-position: center center;
+    background: radial-gradient(circle,black, rgba(151, 2, 2, 0.215));
+  }
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      background-color: #333;
+      color: #d10e0e;
+    }
+    
+    .navbar-logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    
+    .navbar-menu {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    
+    .navbar-menu li {
+      margin-left: 15px;
+    }
+    
+    .navbar-menu a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 5px 10px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+    
+    .navbar-menu a:hover {
+      background-color: #e2e2e2;
+    }
+  /*Estilos figuras */
+    .circle {
+        border-radius: 50%;
+        background-color: rgb(112, 12, 12);
+        border:rgb(255, 0, 0) solid 02px;
+        width: 100px;
+        height: 100px;
+        margin-left: 100px;
+      } 
+
+      .triangle {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid rgb(144, 40, 40);
+        background: linear-gradient(to bottom, #800000, #FF0000);
+        margin-left: 100px;
+
+
+
+    }
+    .square {
+        background: lightblue;
+        width: 100px;
+        height: 100px;
+        background-color: rgb(112, 12, 12);
+        border:rgb(255, 0, 0) solid 02px;
+        margin-left: 100px;
+
+    }
+
+    .rectangle{
+        background: lightblue;
+        width: 180px;
+        height: 100px;
+        background-color: rgb(112, 12, 12);
+        border:rgb(255, 0, 0) solid 02px;
+        margin-left: 100px;
+
+    }
+
+    
+
+
+      /*Estilos modal*/
+      *{
+        border: 0;
+        padding: 0;
+        margin: 0;
+    }
+    
+    body{
+        background-color: rgb(185, 178, 178);
+    }
+    
+    .modal{
+        background-color: black rgba(0,0,0,0,7);
+        /* ancho y alto */
+        width: 100%;
+        height: 150%;
+        position: fixed;
+        /* z index, traer todo al frente */
+        z-index: 1;
+        top: 0;
+        /* generar un espacio */
+        padding-top: 200px;
+        /*Ocultar la ventana modal*/
+        display: none;
+        /*Animacion*/
+        animation-name: animarmodel;
+        animation-duration: 1.5s;
+    }
+    
+    @keyframes animarmodel{
+        from {top: -300px;opacity: 0;}
+        to {top: 0;opacity: 1;}
+    }
+    
+    #contenido{
+        background-color: cornsilk;
+        width: 60%;
+        height: 280px;
+        margin: auto;
+        padding: 1rem;
+    }
+    .cerrarmodal{
+        float: right;
+        /* tamaño de letra */
+        font-size: 12px;
+    
+    }
+    
+    .cerrarmodal:hover{
+        cursor: pointer;
+    
+    }
+    
+    .curri{
+       background-color: rgb(143, 143, 143);
+        margin-top: 50px;
+        width: 400px;
+        height: 115px;
+        margin-left: 50px;
+       
+    }
+ 
+    
+    .abrirmodal {
+        display: inline-block;
+        padding: 05px 05px;
+        font-size: 10px;
+        cursor: pointer;
+        text-align: center;	
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #0d0e0d;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+        
+      }
+      
+      .abrirmodal:hover {background-color: #550101}
+      
+      #abrirmodal:active {
+        background-color: #0c0c0c;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);}
+
+        .abrirmodal{
+            margin-left: 200px;
+            
+        }
+        video {
+          position: fixed;
+          top: 0;
+          left: 0;
+          min-width: 100%;
+          min-height: 100px;
+          z-index: -1;
+          transform:translateX(-120px)translateY(-7px) ;
+        }
+
+        /*Configurar botonoes*/
+        .abrirmodalare {
+            display: inline-block;
+            padding: 05px 05px;
+            font-size: 10px;
+            cursor: pointer;
+            text-align: center;	
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: #0d0e0d;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #999;
+          }
+          
+          .abrirmodalare:hover {background-color: #550101}
+          
+          #abrirmodal:active {
+            background-color: #0c0c0c;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);}
+            
+            
+            /*form*/
+            .form{
+                text-align-last: center;
+                position: relative;
+                width: 500px;
+                height: 280px;
+                padding-left: 15px;
+                background-color:#555;
+                border-radius: 20px;
+                margin: auto;
+            }
+            
+            
+            
+            p{
+                text-shadow: 0 1px o #fff;
+                font-size: 24px;
+            }
+            
+            label{
+                margin: 11px 20px 0 0;
+                font-size: 16px;
+                color: #b3aba1;
+                text-transform: uppercase;
+                text-shadow: 0px 1px 0px #fff;
+            }
+
+            
+
+            .contenedor {
+              display: flex;
+            }
+            
+            .circle,.triangle, .square, .rectangle {
+              /* Estilos adicionales para cada div */
+              margin-right: 10px; /* Ejemplo de margen entre los divs */
+            }

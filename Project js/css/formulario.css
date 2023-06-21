@@ -1,0 +1,176 @@
+body{
+    background-color: rgb(231, 231, 231);
+}
+
+video {
+position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100px;
+  z-index: -1;
+  transform:translateX(-120px)translateY(-7px) ;
+}
+.retoForm{
+    margin-top: 50px;
+    border: solid 1px;
+    border-color: rgb(0, 0, 0);
+    margin-left: 550px;
+    width: 300px;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.575);
+    color: rgb(0, 0, 0);
+    position: relative;
+    
+
+    
+}
+input{
+    width: 250px;
+}
+.compo{
+    margin-left: 10px;
+}
+
+
+
+#Terms-Conditions{
+    width: 10%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #d10e0e;
+  }
+  
+  .navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-menu li {
+    margin-left: 15px;
+  }
+  
+  .navbar-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar-menu a:hover {
+    background-color: #e2e2e2;
+  }
+  
+
+.feedback{
+    /* ancgo */
+    max-width: 100%;
+    width: 85%;
+    /* color del div */
+    background-color: rgba(255, 6, 6, 0.826);
+    /* espacio */
+    padding: 5px;
+    /* color de la letra */
+    color: black;
+    /* tamaño de fuente */
+    font-size: 10px;
+    /* visibilidad oculta */
+        visibility: hidden;
+        opacity: 0;
+        text-align: center;
+}
+
+.success{
+    border: 2px solid lime;
+}
+.error{
+    border: 2px solid red;
+}
+
+
+.modal{
+    background-color: black rgba(0,0,0,0,7);
+    /* ancho y alto */
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    /* z index, traer todo al frente */
+    z-index: 1;
+    top: 0;
+    /* generar un espacio */
+    padding-top: 200px;
+    /*Ocultar la ventana modal*/
+    display: none;
+    /*Animacion*/
+    animation-name: animarmodel;
+    animation-duration: 1.5s;
+}
+
+@keyframes animarmodel{
+    from {top: -300px;opacity: 0;}
+    to {top: 0;opacity: 1;}
+}
+
+#contenido{
+    background-color: cornsilk;
+    width: 60%;
+    height: 150px;
+    margin: auto;
+    padding: 1rem;
+}
+.cerrarmodal{
+    float: right;
+    /* tamaño de letra */
+    font-size: 12px;
+
+}
+
+.cerrarmodal:hover{
+    cursor: pointer;
+
+}
+
+.curri{
+   background-color: rgb(143, 143, 143);
+    margin-top: 50px;
+    width: 400px;
+    height: 115px;
+    margin-left: 50px;
+   
+}
+
+
+
+  
+  .abrirmodal:hover {background-color: #550101}
+  
+  #abrirmodal:active {
+    background-color: #0c0c0c;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);}
+
+    .abrirmodal{
+        margin-left: 200px;
+        
+    }
+
+    .enviar{
+      margin-left: 120px;
+      border-radius: 50px;
+    }
+

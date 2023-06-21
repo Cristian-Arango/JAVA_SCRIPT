@@ -1,0 +1,137 @@
+body {
+  background: #3c3939;
+  text-align: center;
+}
+
+.box {
+  background: linear-gradient(to right, #787575 80%, #e1eec3);  
+  
+  color: white;
+  padding: 4rem 1rem;
+  margin: 2rem;
+  font-size: 100px;
+}
+body{
+  background-position: center center;
+  background: radial-gradient(circle,black, rgba(151, 2, 2, 0.215));
+}
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #d10e0e;
+  }
+  
+  .navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-menu li {
+    margin-left: 15px;
+  }
+  
+  .navbar-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar-menu a:hover {
+    background-color: #e2e2e2;
+  }
+  video {
+    position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100px;
+  z-index: -1;
+  transform:translateX(-120px)translateY(-7px) ;
+}
+    
+
+  /* estilos del logo */
+
+  .form{
+    margin-top: 50px;
+    border: solid 1px;
+    border-color: rgb(0, 0, 0);
+    margin-left: 550px;
+    width: 300px;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.575);
+    color: rgb(0, 0, 0);
+    position: relative;}
+
+
+
+p{
+    text-shadow: 0 1px o #fff;
+    font-size: 24px;
+}
+
+label{
+    margin: 11px 20px 0 0;
+    font-size: 16px;
+    color: #b3aba1;
+    text-transform: uppercase;
+    text-shadow: 0px 1px 0px #fff;
+}
+table {
+  border-collapse: collapse;
+  width: 950px;
+  align-items: center;
+  background-color: #55555534;
+  margin-left: 200px;
+}
+th, td {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 8px;
+  text-align: left;
+  color:rgb(255, 255, 255);
+}
+.corre{
+  color: aquamarine;
+  background-color: aquamarine;
+}
+
+.feedback{
+  /* ancgo */
+  max-width: 100%;
+  width: 97%;
+  /* color del div */
+  background-color: rgba(250, 4, 4, 0);
+  /* espacio */
+  padding: 5px;
+  /* color de la letra */
+  color: black;
+  /* tamaño de fuente */
+  font-size: 15px;
+  /* visibilidad oculta */
+      visibility: hidden;
+      opacity: 0;
+      text-align: center;
+}
+
+
+
+
+.success{
+  border: 2px solid lime;
+}
+.error{
+  border: 2px solid red;
+}

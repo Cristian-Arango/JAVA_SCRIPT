@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/ejercicio7.css">
+</head>
+<body>
+    <video src="img/fondo.mp4" autoplay="true" muted="true" loop="true" ></video>
+
+    <div class="navbar">
+        <div class="navbar-logo">
+            <a href="https://github.com/Cristian-Arango/Java_Script.git"> <img src="img/gi.png" alt="Logo" width="100" height="80"></a>
+        </div>
+        <ul class="navbar-menu">
+            <li><a href="index.html">Volver</a></li>
+            <li><a href="ejercicio1.html">EJERCICIO #1</a></li>
+            <li><a href="ejercicio2.htm">EJERCICIO #2</a></li>
+            <li><a href="ejercicio3.html">EJERCICIO #3</a></li>
+            <li><a href="ejercicio4.html">EJERCICIO #4</a></li>
+            <li><a href="ejercicio5.html">EJERCICIO #5</a></li>
+            <li><a href="ejercicio6.html">EJERCICIO #6</a></li>
+            <li><a href="ejercicio7.html">EJERCICIO #7</a></li>
+        </ul>
+      </div>
+
+      <div class="contenedor">
+
+                    <div class="curri">
+                    <div class="circle">
+                    </div>
+                    <button id="abirmodalcirculoperimetro" class="abrirmodal">Calcular Perimetro</button>
+                    <button id="abirmodalcirculoarea" class="abrirmodal">Calcular Area</button>
+                    </div>
+                    <div id="ventanamodalperimetrocirculo" class="modal">
+                    <div id="contenido">
+                    <span class="cerrarmodal">X</span>
+                    <div class="form">
+                    <form>
+                    <label>Ingrese los datos para saber el perimetro</label>
+                    <input type="text" name="peri" id="peri" placeholder="ingrese el valor del Radio" required>
+                    <br><br>
+                    <button id="Calcular" class="">Calcular Perimetro</button>
+                    </form>
+                    <div id="mostrarresultado" class="mostrarresultado">
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+<!-- 
+                Este es el circulo area -->
+                    <div id="ventanamodalcirculoarea" class="modal">
+                    <div id="contenido">
+                    <span id="cerrarmodalareacirculo" class="cerrarmodal">X</span>
+                    <div class="form">
+                    <form>
+    
+                    <label>Ingrese los datos para saber el Area del circulo</label>
+                    <input type="text" name="area" id="area" placeholder="ingrese el valor del Radio" required>
+                    <br><br>
+                    <button id="calcularareacirculo" class="">Calcular Perimetro</button>
+                    </form>
+                    <div id="mostrarresultadoareacircu" class="mostrarresultadoareacircu">
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+
+
+
+
+
+                    <!-- triangulo -->
+                    <div class="curri">
+                    <div class="triangle">
+                    </div>
+                    <button id="botonperimetrotriangulo" class="abrirmodal">Calcular Perimetro</button>
+                    <button id="botonareatriangulo" class="abrirmodal">Calcular Area</button>
+
+                    </div>
+                    <div id="ventamodaltrianguloarea" class="modal">
+                    <div id="contenido">
+                    <span id="cerrarmodaltrianguloarea"class="cerrarmodal">X</span>
+                    <div class="form">
+                    <form>
+                    <label>Ingrese El valor de la base y la altura</label>
+                    <input type="number" name="base" id="base" placeholder="ingrese el valor de la base" required>
+                    <br><br>
+                     <input type="number" name="altura" id="altura" placeholder="ingrese el valor de la altura " required>
+                    
+                    <br>
+                    <button id="calcularareatriangulo" class="calcularareatriangulo">Calcular Area</button>
+                    </form>
+                        <div id="areatrianguloresultado" class="areatrianguloresultado">
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+
+
+
+                    <div id="ventamodaltrianguloperimetro" class="modal">
+                        <div id="contenido">
+                        <span id="cerrarmodaltrianguloperimetro"class="cerrarmodal">X</span>
+                        <div class="form">
+                        <form>
+    
+                        <label>Ingrese El valor de los lados del triangulo</label>
+                        <input type="number" name="lado1" id="lado1" placeholder="ingrese el valor del 1 lado" required>
+                        <br><br>
+                         <input type="number" name="lado2" id="lado2" placeholder="ingrese el valor del 2 lado" required>
+                        <br><br>
+                        <input type="number" name="lado3" id="lado3" placeholder="ingrese el valor del 3 lado" required>
+                        <br>
+                        <button id="Calcularperitriangulo" class="Calcularperitriangulo">Calcular Perimetro</button>
+                        </form>
+                        <div id="perimetrotrianguloresultado" class="perimetrotrianguloresultado">
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+
+                         <!-- square -->
+                         <div class="curri">
+                            <div class="square">
+                            </div>
+                            <button id="botonperimetrosquare" class="abrirmodal">Calcular Perimetro</button>
+                            <button id="botonareaosquare" class="abrirmodal">Calcular Area</button>
+
+                            </div>
+                        <div id="ventamodalareasquarea" class="modal">
+                        <div id="contenido">
+                        <span id="cerrarmodalsquarearea"class="cerrarmodal">X</span>
+                        <div class="form">
+                        <form>
+                        <label>Ingrese El valor de uno de los lado del cuadradro</label>
+                        <br>
+                        <input type="number" name="ladocua" id="ladocua" placeholder="ingrese el valor de uno de los lados" required>
+                        <br><br>
+                        
+                        <br>
+                        <button id="calcularareasquare" class="calcularareasquare">Calcular Area</button>
+                        </form>
+                            <div id="arearesultadosquare" class="arearesultadosquare">
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div id="ventamodalperimetrosquarea" class="modal">
+                            <div id="contenido">
+                            <span id="cerrarmodalsquareperi"class="cerrarmodal">X</span>
+                            <div class="form">
+                            <form>
+                            <label>Ingrese El valor de uno de los lado del cuadradro</label>
+                            <br>
+                            <input type="number" name="ladocu" id="ladocu" placeholder="ingrese el valor de uno de los lados" required>
+                            <br><br>
+                            
+                            <br>
+                            <button id="calcularperimetrosquare" class="calcularperimetrosquare">Calcular Area</button>
+                            </form>
+                                <div id="periresultadosquare" class="periresultadosquare">
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+
+
+
+                            <div class="curri">
+                                <div class="rectangle">
+                                </div>
+                                <button id="botonperimetrorectangue" class="abrirmodal">Calcular Perimetro</button>
+                                <button id="botonarearectangue" class="abrirmodal">Calcular Area</button>
+    
+                                </div>
+                                <div id="ventamodalperirectangue" class="modal">
+                                <div id="contenido">
+                                <span id="cerrarmodalrectangueperi"class="cerrarmodal">X</span>
+                                <div class="form">
+                                <form>
+                                <label>Ingrese El valorde la base y la altura del rectangulo</label>
+                                <br>
+                                <input type="number" name="bas" id="bas" placeholder="ingrese el valor de la base" required>
+                                <br><br>
+                                <input type="number" name="alt" id="alt" placeholder="ingrese el valor de la altura" required>
+                                <br><br>
+                                    
+                                
+                                <button id="calcularperimetrorectangue" class="calcularperimetrorectangue">Calcular Perimetro</button>
+                                </form>
+                                <div id="periresultadorectangue" class="periresultadorectangue">
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+
+                                
+                                </div>
+                                <div id="ventanamodalarearectangue" class="modal">
+                                <div id="contenido">
+                                <span id="cerrarmodalarearectangue"class="cerrarmodal">X</span>
+                                <div class="form">
+                                <form>
+                                <label>Ingrese El valorde la base y la altura del rectangulo</label>
+                                <br>
+                                <input type="number" name="bas" id="ba" placeholder="ingrese el valor de la base" required>
+                                <br><br>
+                                <input type="number" name="alt" id="al" placeholder="ingrese el valor de la altura" required>
+                                <br><br>
+                                    
+                                
+                                <button id="calculararearectangulo" class="calculararearectangulo">Calcular Perimetro</button>
+                                </form>
+                                <div id="arearesultadorectangue" class="arearesultadorectangue">
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+    <script type="text/JavaScript" src="js/ejercicio6.js"></script>
+</body>
+</html>
+
+
+
+
+
+<!-- Esta es la explicacion de la clase  -->

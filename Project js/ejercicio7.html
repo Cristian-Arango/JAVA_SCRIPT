@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulario.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="navbar">
+    <div class="navbar-logo">
+        <a href="https://github.com/Cristian-Arango/Java_Script.git"> <img src="img/gi.png" alt="Logo" width="100" height="80"></a>
+    </div>
+    <ul class="navbar-menu">
+        <li><a href="index.html">Volver</a></li>
+        <li><a href="ejercicio1.html">EJERCICIO #1</a></li>
+        <li><a href="ejercicio2.htm">EJERCICIO #2</a></li>
+        <li><a href="ejercicio3.html">EJERCICIO #3</a></li>
+        <li><a href="ejercicio4.html">EJERCICIO #4</a></li>
+        <li><a href="ejercicio5.html">EJERCICIO #5</a></li>
+        <li><a href="ejercicio6.html">EJERCICIO #6</a></li>
+        <li><a href="ejercicio7.html">EJERCICIO #7</a></li>
+    </ul>
+  </div>
+
+        <video src="img/fondo.mp4" autoplay="true" muted="true" loop="true" ></video>
+        
+    <form class="retoForm" id="validaciondeformulario" novalidate>
+        
+        <label for="tDocumento">Tipo de Documento</label>
+        <select name="tDocumento" id="tDocumento" required autofocus>
+            <option value="1">TI</option>
+            <option value="2">CC</option>
+            <option value="3">CE</option>
+            <option value="4">RC</option>
+        </select>
+    <br>
+    <div id="camponoDoc" class="compo">
+        <label for="nDocumento">No. Documento</label>
+        <br>
+        <input type="text" id="nDocumento" name="noDoc" class="p"  >
+        <div class="feedback" ></div>
+    </div>
+        <br>
+
+
+    <div id="campoCombre" class="compo">
+        <label for="name">Nombre</label>
+        <br>
+        <input type="text" name="nombre" id="nombre" class="p" >
+        <div class="feedback"></div>
+
+    </div>
+
+        <br>
+
+    <div id="campoApellido" class="compo"> 
+        <label for="last-name">Apellido</label>
+        <br>
+        <input type="text" name="lastname" id="lastname" class="p" >
+        <div class="feedback"></div>
+
+    </div><br>
+
+    
+
+    <div id="FechaNacimiento" class="compo">
+        <label for="date-of-birth">Fecha de Nacimiento</label>
+        <br>
+        <input type="date" name="fechaNa" id="fechaNa" class="p">
+        <div class="feedback"></div>
+    </div><br>
+    
+
+
+    <div id="correocampo" class="compo">
+        <label for="Email">Correo</label>
+        <br>
+        <input type="email" name="Email" id="Email" class="p">
+        <div class="feedback"></div>
+    </div><br>
+
+
+
+    
+    <div id="cpntrasena" class="compo">
+        <label for="password">Password</label>
+        <br>
+        <input type="password" name="coontra"  id="coontra" class="p" >
+        <div class="feedback"></div>
+    </div><br>
+
+    <div id="validarcontrasena" class="compo">
+        <label for="passwords">Password</label>
+        <br>
+        <input type="password" name="validacontrase"  id="validacontrase" class="p" >
+        <div class="feedback"></div>
+    </div>
+    <div id="checboc" class="compo">
+        <label for="checboc">Aceptar terminos y condiciones</label><input type="checkbox" name="checbox"  id="checbox" class="acceder" ><button type="button"  id="chueque"> +</button>
+       
+    </div>
+
+
+    <div id="ventanamodal" class="modal">
+        <div id="contenido">
+        <span id="cerrarmodal" class="cerrarmodal">X</span>
+        <p>Todas las páginas dentro de 
+            este Sitio y todo el material disponible para 
+            descarga son propiedad de HCWH, sus licenciantes o
+             proveedores, según corresponda. El Sitio está protegido por
+              legislación sobre derechos de autor y marcas comerciales vigente en 
+              Estados Unidos y a nivel internacional. </p>
+              </div>
+            </div>
+            <div class="feedback"></div>
+
+<button class="enviar" type="submit">ENVIAR</button>
+<br>
+
+
+<script type="text/JavaScript" src="js/formulario.js"></script>
+
+</body>
+</html>
